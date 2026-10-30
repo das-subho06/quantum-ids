@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Raw datasets
+data/raw/
+
+# Generated experiment results
+results/
+outputs/
+
+# Model checkpoints
+checkpoints/
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Test and coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
