@@ -1,0 +1,16 @@
+{
+    "training": {
+        "rows": 175341,
+        "columns": 45,
+        "duplicate_rows": 0,
+        "total_missing_cells": 0,
+        "columns_with_missing_values": {}
+    },
+    "testing": {
+        "rows": 82332,
+        "columns": 45,
+        "duplicate_rows": 0,
+        "total_missing_cells": 0,
+        "columns_with_missing_values": {}
+    }
+}

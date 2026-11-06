@@ -1,0 +1,92 @@
+[
+    {
+        "model": "RBF One-Class SVM",
+        "test_samples": 82332,
+        "auroc": 0.6433910655559821,
+        "auprc": 0.7100539035140125,
+        "tpr_at_1pct_fpr": 0.12448160240007058,
+        "attack_family_results": {
+            "Analysis": {
+                "attack_samples": 677,
+                "auroc": 0.5250118966825024
+            },
+            "Backdoor": {
+                "attack_samples": 583,
+                "auroc": 0.526204719299059
+            },
+            "DoS": {
+                "attack_samples": 4089,
+                "auroc": 0.5331841724336221
+            },
+            "Exploits": {
+                "attack_samples": 11132,
+                "auroc": 0.47841301677171244
+            },
+            "Fuzzers": {
+                "attack_samples": 6062,
+                "auroc": 0.5001939463382882
+            },
+            "Generic": {
+                "attack_samples": 18871,
+                "auroc": 0.8404024149739269
+            },
+            "Reconnaissance": {
+                "attack_samples": 3496,
+                "auroc": 0.5361928072236997
+            },
+            "Shellcode": {
+                "attack_samples": 378,
+                "auroc": 0.5381331331331332
+            },
+            "Worms": {
+                "attack_samples": 44,
+                "auroc": 0.6535350122850123
+            }
+        }
+    },
+    {
+        "model": "Isolation Forest",
+        "test_samples": 82332,
+        "auroc": 0.698984594439582,
+        "auprc": 0.730534921566726,
+        "tpr_at_1pct_fpr": 0.06752404482484779,
+        "attack_family_results": {
+            "Analysis": {
+                "attack_samples": 677,
+                "auroc": 0.6337303684777835
+            },
+            "Backdoor": {
+                "attack_samples": 583,
+                "auroc": 0.6364949237402068
+            },
+            "DoS": {
+                "attack_samples": 4089,
+                "auroc": 0.6352176769579557
+            },
+            "Exploits": {
+                "attack_samples": 11132,
+                "auroc": 0.619743946111041
+            },
+            "Fuzzers": {
+                "attack_samples": 6062,
+                "auroc": 0.5867957301577393
+            },
+            "Generic": {
+                "attack_samples": 18871,
+                "auroc": 0.832221211010173
+            },
+            "Reconnaissance": {
+                "attack_samples": 3496,
+                "auroc": 0.5421501445667636
+            },
+            "Shellcode": {
+                "attack_samples": 378,
+                "auroc": 0.5335374302874303
+            },
+            "Worms": {
+                "attack_samples": 44,
+                "auroc": 0.7006068796068795
+            }
+        }
+    }
+]
